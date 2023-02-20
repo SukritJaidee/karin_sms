@@ -14,8 +14,7 @@
 
 ### Smart_door_lock
 - <a href="https://colab.research.google.com/drive/1BXRuJR4TS9mh5dcXFu38v03QZ-iMvxl5?usp=sharing">Karin_SMS.ipynb</a>
-- <a href="https://colab.research.google.com/drive/1AGRO6q1PJRDC-E6CeyUg3dniaC1erLU7?usp=sharing">SMS API.ipynb</a>
-- <a href="url">filename</a></p>
+- <a href="https://colab.research.google.com/drive/1AGRO6q1PJRDC-E6CeyUg3dniaC1erLU7?usp=sharing">thaibulksms_API.ipynb</a>
 
 ### Backup Code
 
