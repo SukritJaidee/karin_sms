@@ -8,14 +8,14 @@ import requests
 import pandas as pd
 
 def e_resort():
-  url = "https://finnet.egat.co.th/api/eResortDEV/KARINInquiry/1.0" # DEV Internet
-  # url = "https://finnet.egat.co.th/api/eResort/KARINInquiry/1.0" #Production Internet
+  url = "https://finnet................" # DEV Internet
+  # url = "https://finnet................" #Production Internet
 
-  # url = "https://finapi.egat.co.th:8443/apiman-gateway/eResort/KARINInquiry/1.0" #Production Intranet
-  # url = "https://finapi.egat.co.th:8443/apiman-gateway/eResortDEV/KARINInquiry/1.0" #DEV Intranet
+  # url = "https://finapi................" #Production Intranet
+  # url = "https://finapi................" #DEV Intranet
 
-  payload, headers={}, {'X-API-Key': 'dcb9fce2-b3e7-4c24-a3df-0a8466b025ce'} ## Dev keys
-  # payload, headers = {}, {'X-API-Key': '8b6b2f1a-fc64-4c87-b6fc-d51a9fae3e7c'} ## Production keys
+  payload, headers={}, {'X-API-Key': '..................................'} ## Dev keys
+  # payload, headers = {}, {'X-API-Key': ''..................................'}'} ## Production keys
   response = requests.request("GET", url, headers=headers, data=payload)
   # print(response)
   data = json.loads(response.text)
