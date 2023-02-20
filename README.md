@@ -7,11 +7,11 @@
     - <p><a href="https://colab.research.google.com/drive/16YdYqf6BBzKC5MSRu8WcZHXrQ_zRXUv6?usp=sharing">Karin_loop_api_v4.ipynb</a></p>
     - <p><a href="https://colab.research.google.com/drive/1PDI7bIaqw55vrxm1Ts3U0FBJtKC8liPW?usp=sharing">Karin_loop_api_v5.ipynb</a></p>
     
-<!-- <table>
+<table>
     <tr><th>First Header</th><th>Second Header</th></tr>
     <tr><td>Content Cell</td><td>Content Cell</td></tr>
     <tr><td>Content Cell</td><td>Content Cell</td></tr>
-</table> -->
+</table>
 
 ### Karin_DoorLock
 - <p><a href="https://colab.research.google.com/drive/1qwq7U09J9UKjHWZ3K8JhTGdBoIg-2Ulw?usp=sharing">karin_DoorLock.ipynb</a></p>
