@@ -7,11 +7,11 @@ from datetime import datetime, timedelta, date, tzinfo
 from helper.eresort_f import *
 
 def send_mess(phone_number):
-  account_sid = 'AC4a2d278f6d854b30b77c6961569423e0'
-  auth_token = 'a2b592faabf4300b1f12fbeac73ef19b'
+  account_sid = '....................'
+  auth_token = '....................'
   client = Client(account_sid, auth_token)
   message = client.messages.create(
-                                messaging_service_sid='MGd217ed5113f22d5ac84ff11250571752',
+                                messaging_service_sid='....................',
                                 body='ท่านได้ทำการ check-in เรียบร้อยแล้ว \n\nรหัส OTP สำหรับเปิดบ้านของท่าน คือ'+'\n\n'+str(phone_number[:-3])+ '#'+' \n\nรหัสนี้จะสามารถใช้ได้ตั้งแต่วันที่ Check-in จนถึงเวลา 12.00 น. ของวันที่ Check-out'+ '\n\n**รหัส OTP จะเปลี่ยนทุกครั้งเมื่อ Check-out** ',
                                 to='+66'+phone_number[1:]
                             )
@@ -19,11 +19,11 @@ def send_mess(phone_number):
   return message.sid
 
 def send_mess_out(phone_number, text):
-      account_sid = 'AC4a2d278f6d854b30b77c6961569423e0'
-      auth_token = 'a2b592faabf4300b1f12fbeac73ef19b'
+      account_sid = '....................'
+      auth_token = '....................'
       client = Client(account_sid, auth_token)
       message = client.messages.create(
-          messaging_service_sid='MGd217ed5113f22d5ac84ff11250571752',
+          messaging_service_sid='....................',
           # body='ขอบคุณสำหรับการเข้าพักบ้านครินทร์  \n\nท่านสามารถตรวจสอบการใช้พลังงานสะอาดจากการเข้าพักครั้งนี้ได้ ที่นี่ \n\nติดตามข่าวสารพลังงานได้ที่ \nhttps://energysolutions.egat.co.th \n\nขอบคุณค่ะ',
           body= 'ขอบคุณสำหรับการเข้าพักบ้านครินทร์  \n\nท่านสามารถตรวจสอบการใช้พลังงานสะอาดจากการเข้าพักครั้งนี้ได้ ที่นี่ '+text+'\n\nติดตามข่าวสารพลังงานได้ที่ \nhttps://energysolutions.egat.co.th \n\nขอบคุณค่ะ',
           to='+66'+phone_number[1:]
