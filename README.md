@@ -21,9 +21,8 @@
 ### Reference
 - https://towardsdatascience.com/data-maps-datasets-can-be-distilled-too-1991c3c260d6
 
-<img
-  src="https://lh6.googleusercontent.com/4Dni4jkpIs0L_iFNIC7jGFMryoqNS3E74qym_9pLkiyta5W8Jkz41yvTVqk8Nc8CxXc=w2400"
-  alt="Alt text" width="250" high="250" style="display: margin: 0 auto; max-width: 300px">
+<p align="center"><img src="https://lh6.googleusercontent.com/4Dni4jkpIs0L_iFNIC7jGFMryoqNS3E74qym_9pLkiyta5W8Jkz41yvTVqk8Nc8CxXc=w2400"
+  alt="Alt text" width="250" high="250" style="display: margin: 0 auto; max-width: 300px"></p>
   
 <!-- <table>
     <tr><th>First Header</th><th>Second Header</th></tr>
